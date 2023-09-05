@@ -1,0 +1,142 @@
+{
+  "start_date": "2023-01-01T00:00:00Z",
+  "end_date": "2023-01-07T23:00:00Z",
+  "interval": "day",
+  "display": [
+    "source",
+    "revenue"
+  ],
+  "intervals": [
+    {
+      "dt": "2023-01-01T00:00:00Z",
+      "interval_label": "2023-01-01"
+    },
+    {
+      "dt": "2023-01-02T00:00:00Z",
+      "interval_label": "2023-01-02"
+    },
+    {
+      "dt": "2023-01-03T00:00:00Z",
+      "interval_label": "2023-01-03"
+    },
+    {
+      "dt": "2023-01-04T00:00:00Z",
+      "interval_label": "2023-01-04"
+    },
+    {
+      "dt": "2023-01-05T00:00:00Z",
+      "interval_label": "2023-01-05"
+    },
+    {
+      "dt": "2023-01-06T00:00:00Z",
+      "interval_label": "2023-01-06"
+    },
+    {
+      "dt": "2023-01-07T00:00:00Z",
+      "interval_label": "2023-01-07"
+    }
+  ],
+  "data": [
+    {
+      "attributes": {
+        "source": "one"
+      },
+      "revenue": [
+        3638.26731,
+        371.55193,
+        921.35377,
+        2789.00134,
+        15845.8479,
+        10124.18766,
+        15281.90758
+      ]
+    },
+    {
+      "attributes": {
+        "source": "two"
+      },
+      "revenue": [
+        43279.57049,
+        43759.54325,
+        29878.5657,
+        17146.57312,
+        22512.74771,
+        27054.07366,
+        28277.72967
+      ]
+    },
+    {
+      "attributes": {
+        "source": "three"
+      },
+      "revenue": [
+        26147.42035,
+        35159.12573,
+        32649.81486,
+        28974.3234,
+        50668.86375,
+        44189.93695,
+        29406.30709
+      ]
+    },
+    {
+      "attributes": {
+        "source": "four"
+      },
+      "revenue": [
+        14113.54356,
+        18714.04109,
+        17584.34214,
+        20502.00689,
+        25028.82219,
+        22369.04742,
+        14994.73221
+      ]
+    },
+    {
+      "attributes": {
+        "source": "five"
+      },
+      "revenue": [
+        9046.69775,
+        22254.89125,
+        22747.6815,
+        16709.474,
+        10644.00025,
+        8238.06175,
+        11004.8145
+      ]
+    }
+  ],
+  "assets": {
+    "source": {
+      "label": "Source",
+      "field_usage": "attribute",
+      "field_type": "string",
+      "values": {
+        "one": {
+          "label": "One"
+        },
+        "two": {
+          "label": "Two"
+        },
+        "three": {
+          "label": "Three"
+        },
+        "four": {
+          "label": "Four"
+        },
+        "five": {
+          "label": "Five"
+        }
+      }
+    },
+    "revenue": {
+      "label": "Revenue",
+      "field_usage": "metric",
+      "field_type": "float",
+      "unit": "$",
+      "unit_type": "currency"
+    }
+  }
+}
